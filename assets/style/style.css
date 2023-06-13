@@ -196,9 +196,7 @@ hr {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-/* .skills-item:first-child {
-	margin-left: 0;
-} */
+
 .skills-item {
 	list-style-type: none;
 	font-family: 'TT Commons';
@@ -211,9 +209,26 @@ hr {
 	margin: 0 8px;
 	text-transform: uppercase;
 }
-/* .skills-item:last-child {
-	margin-right: 0;
-} */
+
+@media screen and (max-width: 425px) {
+	.aside__glasses {
+		left: 102px;
+	}
+	.about-arrow-red {
+		top: 357px;
+		left: 154px;
+	}
+	.info-arrow-black {
+		left: 139px;
+	}
+  .skills-list{
+    justify-content: flex-start;
+  }
+  .skills-item{
+    margin: 0;
+    margin-right: 8px;
+  }
+}
 
 @media screen and (min-width: 1000px) {
 	body {
@@ -234,14 +249,14 @@ hr {
 	.main-block {
 		max-width: 1008px;
 	}
-  .about__name-age{
-    margin-bottom: 40px;
-  }
+	.about__name-age {
+		margin-bottom: 40px;
+	}
 	.about__name {
 		font-weight: 400;
 		font-size: 24px;
 		line-height: 28px;
-    margin-bottom: 8px;
+		margin-bottom: 8px;
 	}
 	.about__age {
 		font-weight: 400;
