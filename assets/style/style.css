@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'Redcollar';
-	src: url('../../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot');
-	src: url('../../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot?#iefix')
+	src: url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot');
+	src: url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot?#iefix')
 			format('embedded-opentype'),
-		url('../../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff2') format('woff2'),
-		url('../../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff') format('woff'),
-		url('../../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.ttf') format('truetype'),
-		url('../../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.svg#Redcollar') format('svg');
+		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff2') format('woff2'),
+		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff') format('woff'),
+		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.ttf') format('truetype'),
+		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.svg#Redcollar') format('svg');
 }
 
 @font-face {
 	font-family: 'TT Commons';
-	src: url('../../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot');
-	src: url('../../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot?#iefix')
+	src: url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot');
+	src: url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot?#iefix')
 			format('embedded-opentype'),
-		url('../../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff2') format('woff2'),
-		url('../../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff') format('woff'),
-		url('../../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.ttf') format('truetype'),
-		url('../../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.svg#TT Commons')
+		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff2') format('woff2'),
+		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff') format('woff'),
+		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.ttf') format('truetype'),
+		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.svg#TT Commons')
 			format('svg');
 }
 
