@@ -1,324 +1,378 @@
-@font-face {
-	font-family: 'Redcollar';
-	src: url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot');
-	src: url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot?#iefix')
-			format('embedded-opentype'),
-		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff2') format('woff2'),
-		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff') format('woff'),
-		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.ttf') format('truetype'),
-		url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.svg#Redcollar') format('svg');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-	font-family: 'TT Commons';
-	src: url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot');
-	src: url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot?#iefix')
-			format('embedded-opentype'),
-		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff2') format('woff2'),
-		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff') format('woff'),
-		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.ttf') format('truetype'),
-		url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.svg#TT Commons')
-			format('svg');
+  font-family: 'Redcollar';
+  src: url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot');
+  src: url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff2') format('woff2'),
+    url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.woff') format('woff'),
+    url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.ttf') format('truetype'),
+    url('../fonts/Redcollar/f02cf2e6e27a17bcfe9efa18c041c208.svg#Redcollar') format('svg');
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot');
+  src: url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff2') format('woff2'),
+    url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.woff') format('woff'),
+    url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.ttf') format('truetype'),
+    url('../fonts/TT Commons Regular/791b34a71c48acc600f240e9fdb57fb6.svg#TT Commons') format('svg');
 }
 
 body {
-	background-color: #000;
-	padding: 20px 20px 60px;
+  background-color: #000;
+  padding: 20px 20px 60px;
 }
-/* h1, h2, h3, ul, p {
-  margin: 0;
-} */
 
-.header {
-}
 .header__logo {
-	margin-bottom: 48px;
+  margin-bottom: 48px;
 }
+
 .aside {
-	position: relative;
-	margin-bottom: 40px;
+  position: relative;
+  margin-bottom: 40px;
 }
+
 .aside__photo {
-	position: relative;
+  position: relative;
 }
+
 .aside__photo img {
-	position: relative;
-	top: 20px;
-	width: 100%;
-	height: 370px;
-	object-fit: cover;
-	z-index: -10;
+  position: relative;
+  /* top: 20px; */
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  z-index: -10;
 }
+
 .aside__glasses {
-	position: absolute;
-	top: 76px;
-	left: 78px;
+  position: absolute;
+  top: 76px;
+  left: 79px;
 }
+
 .aside__glasses img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transform: rotate(20deg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(20deg);
 }
+
 .aside__about {
-	background: #f51b1b;
-	border-radius: 20px 20px 0px 0px;
-	padding: 24px 16px 40px;
+  background: #f51b1b;
+  border-radius: 20px 20px 0px 0px;
+  padding: 24px 16px 40px;
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
+
 .about-arrow-red {
-	display: inline-block;
-	position: absolute;
-	top: 356px;
-	left: 132px;
+  display: inline-block;
+  position: absolute;
+  top: 337px;
+  left: calc(50% - 60px / 2 + 1px);
 }
-.about {
-}
+
 .about__name-age {
+  margin-bottom: 32px;
 }
+
 .about__name {
-	margin: 0;
-	font-family: 'Redcollar';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
-	letter-spacing: -0.02em;
-	color: #ffffff;
+  margin: 0;
+  font-family: 'Redcollar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 4px;
 }
+
 .about__age {
-	font-family: 'TT Commons';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: -0.02em;
-	color: #ffffff;
-	margin-top: 0;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-top: 0;
 }
-.about__social-links {
-}
-.social-links {
-}
+
 .social-links__item {
-	display: flex;
-	align-items: center;
-	margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
 }
+
 .social-links__item img {
-	margin-right: 16px;
+  margin-right: 16px;
 }
+
 .social-links__item a {
-	font-family: 'TT Commons';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: -0.02em;
-	color: #ffffff;
-	text-decoration: none;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  text-decoration: none;
 }
-.main {
-}
+
 .main__hello-text {
-	margin-bottom: 24px;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin-bottom: 24px;
 }
+
 .main__hello-text span {
-	font-family: 'TT Commons';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: -0.01em;
-	color: #ffffff;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
 }
+
 .main__resume-info {
-	padding: 40px 15px 30px;
-	border: 1px solid white;
+  padding: 40px 15px 30px;
+  border: 1px solid white;
 }
+
 .info-arrow-black {
-	display: inline-block;
-	position: relative;
-	top: -41px;
-	left: 120px;
+  display: inline-block;
+  position: relative;
+  top: -41px;
+  left: calc(50% - 60px / 2);
 }
+
 .resume-info {
-	color: #ffffff;
+  color: #ffffff;
 }
+
 hr {
-	margin: 24px 0;
+  margin: 24px 0;
 }
-.resume-info__education {
-	/* border-bottom: 1px solid #FFFFFF;; */
-}
-.resume-info__career {
-}
-.resume-info__skills {
-}
+
 .education,
 .career,
 .skills {
-	font-family: 'Redcollar';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 100%;
-	color: #ffffff;
+  font-family: 'Redcollar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
+
 .education-block,
 .career-block {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
 }
+
 .place {
-	font-family: 'TT Commons';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: -0.01em;
-	color: #ffffff;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
 }
+
 .direction,
 .year {
-	font-family: 'TT Commons';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: -0.01em;
-	color: #ffffff;
-	opacity: 0.4;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  opacity: 0.4;
 }
+
 .skills-list {
-	display: flex;
-	padding: 0;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 .skills-item {
-	list-style-type: none;
-	font-family: 'TT Commons';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
-	letter-spacing: -0.01em;
-	color: #ffffff;
-	margin: 0 8px;
-	text-transform: uppercase;
+  list-style-type: none;
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin: 0 8px;
+  text-transform: uppercase;
 }
 
-@media screen and (max-width: 425px) {
-	.aside__glasses {
-		left: 102px;
-	}
-	.about-arrow-red {
-		top: 357px;
-		left: 154px;
-	}
-	.info-arrow-black {
-		left: 139px;
-	}
-  .skills-list{
-    justify-content: flex-start;
+@media screen and (min-width: 425px) {
+  .aside__glasses {
+    left: 112px;
   }
-  .skills-item{
+
+  .about-arrow-red {
+    left: calc(50% - 60px / 2 + 1px);
+  }
+
+  .info-arrow-black {
+    left: calc(50% - 60px / 2);
+  }
+
+  .skills-item {
     margin: 0;
     margin-right: 8px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-	body {
-		max-width: 1440px;
-		margin: 0 auto;
-	}
-	main {
-		display: flex;
-		justify-content: center;
-	}
-	.header {
-		display: flex;
-		justify-content: flex-end;
-	}
-	.header__logo {
-		margin-bottom: 0;
-	}
-	.main-block {
-		max-width: 1008px;
-	}
-	.about__name-age {
-		margin-bottom: 40px;
-	}
-	.about__name {
-		font-weight: 400;
-		font-size: 24px;
-		line-height: 28px;
-		margin-bottom: 8px;
-	}
-	.about__age {
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 24px;
-	}
-	.social-links__item a {
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 24px;
-	}
-	.aside {
-		margin-right: 31px;
-		width: 322px;
-	}
-	.aside__photo img {
-		top: 0;
-	}
-	.aside__about {
-		height: 335px;
-	}
-	.main__hello-text {
-		max-width: 690px;
-		margin-bottom: 32px;
-	}
-	.main__hello-text span {
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 24px;
-	}
-	.main__resume-info {
-		padding: 35px 49px 48px 27px;
-		width: 1008px;
-	}
-	.info-arrow-black {
-		top: -36px;
-		left: 30px;
-	}
-	.education,
-	.career,
-	.skills {
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 100%;
-		margin: 0px 72px 0px 0px;
-	}
-	.career,
-	.skills {
-		margin-right: 117px;
-	}
-	.resume-info__education,
-	.resume-info__career,
-	.resume-info__skills {
-		display: flex;
-	}
-	.skills-list {
-		width: 367px;
-		margin: 0;
-		justify-content: flex-start;
-	}
-	.education-all,
-	.career-all {
-		width: 400px;
-	}
+  body {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px 40px 0;
+    box-sizing: border-box;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header__logo {
+    margin-bottom: 0;
+  }
+
+  .main-block {
+    padding-top: 18px;
+  }
+
+  .about__name-age {
+    margin-bottom: 40px;
+  }
+
+  .about__name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .about__age {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .social-links__item a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .aside {
+    width: 322px;
+    height: 780px;
+    margin-right: 32px;
+  }
+
+  .aside__glasses {
+    left: 78px;
+  }
+
+  .about-arrow-red {
+    top: 336px;
+    left: 131px;
+  }
+
+  .aside__about {
+    height: 400px;
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    height: 485px;
+    box-sizing: border-box;
+  }
+
+  .main__hello-text {
+    width: 750px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .main__resume-info {
+    padding: 35px 49px 48px 27px;
+    width: 1008px;
+  }
+
+  .info-arrow-black {
+    top: -36px;
+    left: 30px;
+  }
+
+  .education,
+  .career,
+  .skills {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin: 0px 72px 0px 0px;
+  }
+
+  .career,
+  .skills {
+    margin-right: 117px;
+  }
+
+  .resume-info__education,
+  .resume-info__career,
+  .resume-info__skills {
+    display: flex;
+  }
+
+  .skills-list {
+    width: 400px;
+    margin: 0;
+    justify-content: flex-start;
+  }
+
+  .education-all,
+  .career-all {
+    width: 400px;
+  }
 }
