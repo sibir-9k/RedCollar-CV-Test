@@ -230,6 +230,11 @@ hr {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 412px) {
+  .aside__glasses {
+    left: 105px;
+  }
+}
 @media screen and (min-width: 425px) {
   .aside__glasses {
     left: 112px;
